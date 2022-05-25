@@ -8,6 +8,11 @@ public class FirstTest {
     @Test
     void firstTest() {
         Assertions.assertTrue( 10 > 5);
+    };
+
+    @Test
+    void secondTest() {
+        Assertions.assertTrue( 10 > 7);
     }
 
 }
